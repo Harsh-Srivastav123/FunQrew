@@ -25,8 +25,8 @@ function HomePhotoCard() {
         <HomePhotoCardContent
           key={index}
           photo={photo}
-          name={names[index]}
-          designation={designations[index]}
+          // name={names[index]}
+          // designation={designations[index]}
           isVisible={index === currentIndex}
         />
       ))}
