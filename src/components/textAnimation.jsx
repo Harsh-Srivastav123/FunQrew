@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
 function TextAnimation() {
-  const names = ["Ankit Srivastava", "Mr. Alok Srivastava", "Lucky Arush"];
+  const names = ["Ankit Srivastava", "Mr. Alok Srivastava", "Jasdeep Singh"];
   const designations = [
     "Founder",
     "Honorary Patron",
-    "Creative Director",
+    "Creative Head",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

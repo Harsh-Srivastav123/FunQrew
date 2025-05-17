@@ -6,8 +6,8 @@ import HomePhotoCardContent from "./HomePhotoCardContent";
 
 function HomePhotoCard() {
   const photos = [f1, f5, f6];
-  const names = ['Ankit Srivastava', 'Mr. Alok Srivastava', 'Lucky Arush'];
-  const designations = ['Founder', 'Honorary Patron', 'Creative Director'];
+  const names = ['Ankit Srivastava', 'Mr. Alok Srivastava', 'Jasdeep Singh'];
+  const designations = ['Founder', 'Honorary Patron', 'Creative Head'];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
