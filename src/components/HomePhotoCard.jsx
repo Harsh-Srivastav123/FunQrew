@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import f1 from '../assets/homePhoto/founder3.png';
+import f7 from '../assets/homePhoto/founder7.png';
 import f5 from '../assets/homePhoto/founder5.png';
 import f6 from '../assets/homePhoto/founder6.png';
 import HomePhotoCardContent from "./HomePhotoCardContent";
 
 function HomePhotoCard() {
-  const photos = [f1, f5, f6];
-  const names = ['Ankit Srivastava', 'Mr. Alok Srivastava', 'Jasdeep Singh'];
-  const designations = ['Founder', 'Honorary Patron', 'Creative Head'];
+  const photos = [f1,f7, f5, f6];
+  const names = ['Ankit Srivastava','Abhivyakti Srivastava', 'Mr. Alok Srivastava', 'Jasdeep Singh'];
+  const designations = ['Founder','Co Founder', 'Honorary Patron', 'Creative Head'];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
