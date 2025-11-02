@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import f1 from '../assets/homePhoto/founder3.png';
-import f7 from '../assets/homePhoto/founder7.png';
-import f5 from '../assets/homePhoto/founder5.png';
-import f6 from '../assets/homePhoto/founder6.png';
+import f1 from '../assets/homePhoto/founder3.jpg';
+import f7 from '../assets/homePhoto/founder7.jpg';
+import f5 from '../assets/homePhoto/founder5.jpg';
+import f6 from '../assets/homePhoto/founder6.jpg';
 import HomePhotoCardContent from "./HomePhotoCardContent";
 
 function HomePhotoCard() {
