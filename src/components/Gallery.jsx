@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import 'animate.css';
 
-// Import 45 images: first 28 in JPG, then JPEG
+// Import 51 images: first 28 in JPG, then JPEG (29-45), then JPG (46-51)
 import g1 from '../assets/galleryPhoto/g1.jpg';
 import g2 from '../assets/galleryPhoto/g2.jpg';
 import g3 from '../assets/galleryPhoto/g3.jpg';
@@ -47,6 +47,12 @@ import g42 from '../assets/galleryPhoto/g42.jpeg';
 import g43 from '../assets/galleryPhoto/g43.jpeg';
 import g44 from '../assets/galleryPhoto/g44.jpeg';
 import g45 from '../assets/galleryPhoto/g45.jpeg';
+import g46 from '../assets/galleryPhoto/g46.jpg';
+import g47 from '../assets/galleryPhoto/g47.jpg';
+import g48 from '../assets/galleryPhoto/g48.jpg';
+import g49 from '../assets/galleryPhoto/g49.jpg';
+import g50 from '../assets/galleryPhoto/g50.jpg';
+import g51 from '../assets/galleryPhoto/g51.jpg';
 
 // Array of image sources and span classes
 const images = [
@@ -95,6 +101,12 @@ const images = [
   { src: g43, span: 'h-48 md:h-80' },
   { src: g44, span: 'h-48 md:h-80' },
   { src: g45, span: 'h-48 md:h-80' },
+  { src: g46, span: 'h-48 md:h-80' },
+  { src: g47, span: 'h-48 md:h-80' },
+  { src: g48, span: 'h-48 md:h-80' },
+  { src: g49, span: 'h-48 md:h-80' },
+  { src: g50, span: 'h-48 md:h-80' },
+  { src: g51, span: 'h-48 md:h-80' },
 ];
 
 const animations = ['animate__fadeIn'];
