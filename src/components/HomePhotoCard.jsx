@@ -6,9 +6,13 @@ import f6 from '../assets/homePhoto/founder6.png';
 import HomePhotoCardContent from "./HomePhotoCardContent";
 
 function HomePhotoCard() {
-  const photos = [f1,f7, f5, f6];
-  const names = ['Ankit Srivastava','Abhivyakti Srivastava', 'Mr. Alok Aviral', 'Jasdeep Singh'];
-  const designations = ['Founder','Co Founder', 'Honorary Patron', 'Creative Head'];
+  // const photos = [f1,f7, f5, f6];
+  // const names = ['Ankit Srivastava','Abhivyakti Srivastava', 'Mr. Alok Aviral', 'Jasdeep Singh'];
+  // const designations = ['Founder','Co Founder', 'Honorary Patron', 'Creative Head'];
+
+  const photos = [f1,f7,f6];
+  const names = ['Ankit Srivastava','Abhivyakti Srivastava', 'Jasdeep Singh'];
+  const designations = ['Founder','Co Founder','Creative Head'];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
